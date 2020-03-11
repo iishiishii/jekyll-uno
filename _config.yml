@@ -1,13 +1,13 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno'
+title: Luna Nalu
+description: 'In my mind, nonsense is sense'
+url: 'http://lunanalu.com/iishiishii'
+baseurl: '/iishiishii'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Josh Gerdes'
+  name: 'Luna'
   email: josh@joshgerdes.com
   twitter_username: joshgerdes
   facebook_username: joshgerdes
