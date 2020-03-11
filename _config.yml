@@ -8,11 +8,11 @@ baseurl: '/iishiishii'
 
 author:
   name: 'Luna'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  email: 
+  twitter_username: 
+  facebook_username: 
+  github_username:  
+  linkedin_username:  
 
 defaults:
   -
