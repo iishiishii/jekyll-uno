@@ -1,18 +1,18 @@
 # Site settings
 title: Luna Nalu
 description: 'In my mind, nonsense is sense'
-url: 'http://lunanalu.com/iishiishii'
+url: 'http://iishiishii.lunanalu.com/iishiishii'
 baseurl: '/iishiishii'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
 author:
   name: 'Luna'
-  email: 
-  twitter_username: 
-  facebook_username: 
-  github_username:  
-  linkedin_username:  
+  email:
+  twitter_username:
+  facebook_username:
+  github_username:
+  linkedin_username:
 
 defaults:
   -
