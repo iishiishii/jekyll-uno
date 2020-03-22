@@ -1375,19 +1375,19 @@ nav {
 
 .navigation__item {
 	display: inline-block;
+	position: relative;
 	margin: 0 2px 0 0;
 	line-height: 1em;
 	background-color: #f2a89d;
+	border-color: #6f696b;
+	overflow:hidden;
 	border: #6f696b;}
 	.navigation__item a {
 		display: block;
-		position: relative;
-		border-color: #6f696b;
-		background-color: #f2a89d;
-		overflow:hidden;
 		color: #ffffff;
 		opacity: 0.8; }
 		.navigation__item a:hover {
+			position: relative;
 			color: #000000;
 			border-color: #6f696b;
 			opacity: 0.8; }
