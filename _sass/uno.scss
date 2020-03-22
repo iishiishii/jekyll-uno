@@ -1371,20 +1371,19 @@ nav {
 	float: left;
 	position: relative;
 	margin: 0;
-	list-style-type: none;	 }
+	list-style-type: none;
+	overflow:hidden;}
 
 .navigation__item {
 	display: inline-block;
 	margin: 0 2px 0 0;
 	line-height: 1em;
 	background-color: #f2a89d;
-	border: #6f696b;
- 	overflow:hidden;}
+	border: #6f696b;}
 	.navigation__item a {
 		display: block;
 		position: relative;
 		border-color: #6f696b;
-		overflow:hidden;
 		color: #ffffff;
 		opacity: 0.8; }
 		.navigation__item a:hover {
