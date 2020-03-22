@@ -1124,9 +1124,9 @@ pre {
 
 .avatar,
 .logo {
-	border-radius: 70%;
-	border: 3px solid #000000;
-	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1); }
+	border-radius: 50%;
+	border: 3px solid #FFF;
+	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.5); }
 
 hr {
 	border: none; }
@@ -1191,13 +1191,13 @@ hr {
 
 .panel-title {
 	margin: 0 0 5px 0;
-	font-size: 4.0em;
+	font-size: 2.5em;
 	letter-spacing: 4px;
 	color: #000000; }
 
 .panel-subtitle {
 	font-family: "Roboto Slab", serif;
-	font-size: 2.2em;
+	font-size: 1.8em;
 	font-weight: lighter;
 	letter-spacing: 3px;
 	color: #000000;
@@ -1215,7 +1215,7 @@ hr {
 
 .panel-cover--collapsed {
 	width: 40%;
-	max-width: 1250px; }
+	max-width: 530px; }
 
 .panel-cover--overlay {
 	display: block;
@@ -1273,7 +1273,7 @@ hr {
 	font-weight: 100;
 	text-align: center;
 	color: #000000;
-	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); }
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); }
 	.panel-inverted a {
 		color: #000000; }
 
