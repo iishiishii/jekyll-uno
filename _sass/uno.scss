@@ -1374,10 +1374,11 @@ nav {
 	list-style-type: none;	 }
 
 .navigation__item {
-	background-color: #f2a89d;
 	display: inline-block;
 	margin: 0 2px 0 0;
-	line-height: 1em;	}
+	background-color: #f2a89d;
+	line-height: 1em;
+	border-radius: 50%}
 	.navigation__item a {
 		display: block;
 		position: relative;
