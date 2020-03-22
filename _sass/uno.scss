@@ -1371,22 +1371,24 @@ nav {
 	float: left;
 	position: relative;
 	margin: 0;
-	list-style-type: none; }
+	list-style-type: none
+	background-color: #f2a89d; }
 
 .navigation__item {
 	display: inline-block;
 	margin: 0 2px 0 0;
-	line-height: 1em; }
+	line-height: 1em;
+ 	background-color: #f2a89d;}
 	.navigation__item a {
 		display: block;
 		position: relative;
-		border-color: #f2a89d;
+		border-color: #6f696b;
 		color: #000000;
-		opacity: 1; }
+		opacity: 0.8; }
 		.navigation__item a:hover {
 			color: #000000;
-			border-color: #f2a89d;
-			opacity: 1; }
+			border-color: #6f696b;
+			opacity: 0.8; }
 
 .navigation--social {
 	margin-left: 1.5em; }
@@ -1396,7 +1398,7 @@ nav {
 			display: none; }
 		.navigation--social a .icon {
 			display: block;
-			font-size: 1.7em; }
+			font-size: 1.2em; }
 
 .pagination {
 	display: block;
