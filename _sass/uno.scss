@@ -1019,8 +1019,8 @@ ul {
 
 code {
 	padding: .1em .4em;
-	background: #e8f2fb;
-	border: 1px solid #c9e1f6;
+	background: #fcebe8;
+	border: 1px solid #f4b5be;
 	border-radius: 3px;
 	font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
 	font-size: .85em; }
@@ -1045,12 +1045,12 @@ pre {
 .author,
 .tags {
 	font-size: .8em;
-	color: #c7c7c7; }
+	color: #fcebe8; }
 	.date a,
 	.time a,
 	.author a,
 	.tags a {
-		color: #666666; }
+		color: #f1b7bc; }
 		.date a:hover,
 		.time a:hover,
 		.author a:hover,
@@ -1060,13 +1060,13 @@ pre {
 .excerpt {
 	margin: 0;
 	font-size: .9em;
-	color: #999999; }
+	color: #fb8778; }
 
 .intro {
 	font-family: "Roboto Slab", serif;
 	font-size: 1.2em;
 	font-weight: lighter;
-	color: #999999; }
+	color: #fb8778; }
 
 .block-heading {
 	display: inline;
@@ -1200,7 +1200,7 @@ hr {
 	font-size: 1.2em;
 	font-weight: lighter;
 	letter-spacing: 3px;
-	color: #cccccc;
+	color: #fcebea;
 	-webkit-font-smoothing: antialiased; }
 
 .panel-cover {
@@ -1210,7 +1210,7 @@ hr {
 	width: 100%;
 	max-width: none;
 	height: 100%;
-	background: url(../images/background-cover.jpg) top left no-repeat #666666;
+	background: url(../images/background-cover.jpg) top left no-repeat #f1b7bc;
 	background-size: cover; }
 
 .panel-cover--collapsed {
@@ -1225,9 +1225,9 @@ hr {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-color: rgba(68, 68, 68, 0.6);
-	background-image: -webkit-linear-gradient(-410deg, rgba(68, 68, 68, 0.6) 20%, rgba(0, 0, 0, 0.9));
-	background-image: linear-gradient(140deg,rgba(68, 68, 68, 0.6) 20%, rgba(0, 0, 0, 0.9)); }
+	background-color: rgba(252, 235, 234, 0.6);
+	background-image: -webkit-linear-gradient(-410deg, rgba(252, 235, 234, 0.6) 30%, rgba(0, 0, 0, 0.9));
+	background-image: linear-gradient(140deg,rgba(252, 235, 234, 0.6) 30%, rgba(0, 0, 0, 0.9)); }
 
 .panel-cover__logo {
 	margin-bottom: .2em; }
