@@ -1377,14 +1377,13 @@ nav {
 	display: inline-block;
 	margin: 0 2px 0 0;
 	line-height: 1em;
-	border-radius: 50%;
+	border-radius: 100%;
 	overflow: hidden;
 	background-color: #f2a89d;}
 	.navigation__item a {
 		display: block;
 		position: relative;
 		border-color: #6f696b;
-		overflow: hidden;
 		color: #ffffff;
 		opacity: 0.8; }
 		.navigation__item a:hover {
