@@ -993,7 +993,7 @@ blockquote {
 	margin: 1em 0;
 	padding: 2em 0;
 	background: #f8f8f8;
-	border: 1px solid #ffffff;
+	border: 1px solid #000000;
 	border-radius: 5px;
 	font-family: "Roboto Slab", serif;
 	font-weight: lighter;
@@ -1124,15 +1124,15 @@ pre {
 
 .avatar,
 .logo {
-	border-radius: 50%;
-	border: 3px solid #FFF;
+	border-radius: 70%;
+	border: 3px solid #000000;
 	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1); }
 
 hr {
 	border: none; }
 
 .section-title__divider {
-	width: 30%;
+	width: 70%;
 	margin: 2.2em 0 2.1em 0;
 	border-top: 1px solid #000000; }
 
@@ -1191,13 +1191,13 @@ hr {
 
 .panel-title {
 	margin: 0 0 5px 0;
-	font-size: 2.5em;
+	font-size: 4.0em;
 	letter-spacing: 4px;
 	color: #000000; }
 
 .panel-subtitle {
 	font-family: "Roboto Slab", serif;
-	font-size: 1.2em;
+	font-size: 2.2em;
 	font-weight: lighter;
 	letter-spacing: 3px;
 	color: #000000;
@@ -1215,7 +1215,7 @@ hr {
 
 .panel-cover--collapsed {
 	width: 40%;
-	max-width: 530px; }
+	max-width: 1250px; }
 
 .panel-cover--overlay {
 	display: block;
@@ -1238,7 +1238,7 @@ hr {
 .panel-cover__divider {
 	width: 50%;
 	margin: 20px auto;
-	border-top: 1px solid rgba(238, 238, 238, 0.0); }
+	border-top: 1px solid rgba(0, 0, 0, 0.0); }
 
 .panel-cover__divider--secondary {
 	width: 15%; }
@@ -1273,7 +1273,7 @@ hr {
 	font-weight: 100;
 	text-align: center;
 	color: #000000;
-	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); }
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); }
 	.panel-inverted a {
 		color: #000000; }
 
@@ -1380,13 +1380,13 @@ nav {
 	.navigation__item a {
 		display: block;
 		position: relative;
-		border-color: #FFF;
-		color: #FFF;
-		opacity: .2; }
+		border-color: #f2a89d;
+		color: #000000;
+		opacity: 0; }
 		.navigation__item a:hover {
-			color: #FFF;
-			border-color: #FFF;
-			opacity: 0.5; }
+			color: #000000;
+			border-color: #f2a89d;
+			opacity: 0; }
 
 .navigation--social {
 	margin-left: 1.5em; }
