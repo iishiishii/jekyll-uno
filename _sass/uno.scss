@@ -1371,13 +1371,14 @@ nav {
 	float: left;
 	position: relative;
 	margin: 0 2px 0 0;
+	border-radius: 50%;
 	list-style-type: none;	 }
 
 .navigation__item {
 	display: inline-block;
 	margin: 0 2px 0 0;
 	background-color: #f2a89d;
-	border-radius: 100%;}
+	border-radius: 50%;}
 	.navigation__item a {
 		display: block;
 		position: relative;
