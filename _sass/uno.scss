@@ -1371,8 +1371,7 @@ nav {
 	float: left;
 	position: relative;
 	margin: 0;
-	list-style-type: none;
-	overflow:hidden;}
+	list-style-type: none;}
 
 .navigation__item {
 	display: inline-block;
@@ -1384,6 +1383,8 @@ nav {
 		display: block;
 		position: relative;
 		border-color: #6f696b;
+		background-color: #f2a89d;
+		overflow:hidden;
 		color: #ffffff;
 		opacity: 0.8; }
 		.navigation__item a:hover {
