@@ -993,8 +993,8 @@ blockquote {
 	margin: 1em 0;
 	padding: 2em 0;
 	background: #f8f8f8;
-	border: 1px solid #eeeeee;
-	border-radius: 3px;
+	border: 1px solid #ffffff;
+	border-radius: 5px;
 	font-family: "Roboto Slab", serif;
 	font-weight: lighter;
 	font-style: italic;
@@ -1134,7 +1134,7 @@ hr {
 .section-title__divider {
 	width: 30%;
 	margin: 2.2em 0 2.1em 0;
-	border-top: 1px solid #dddddd; }
+	border-top: 1px solid #000000; }
 
 .hidden {
 	display: none !important; }
@@ -1193,7 +1193,7 @@ hr {
 	margin: 0 0 5px 0;
 	font-size: 2.5em;
 	letter-spacing: 4px;
-	color: #FFF; }
+	color: #000000; }
 
 .panel-subtitle {
 	font-family: "Roboto Slab", serif;
@@ -1565,10 +1565,10 @@ input[type="tel"] {
 		width: 70px; }
 
 	.panel-title {
-		font-size: 2em; }
+		font-size: 4em; }
 
 	.panel-subtitle {
-		font-size: 1em; }
+		font-size: 2em; }
 
 	.panel-cover__description {
 		margin: 0 10px;
