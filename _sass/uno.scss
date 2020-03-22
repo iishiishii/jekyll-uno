@@ -1313,7 +1313,7 @@ hr {
 	font-size: .9em;
 	font-weight: bold;
 	letter-spacing: 1px;
-	text-shadow: none;
+	text-shadow: 0 1px 1px;
 	color: #e25440;
 	-webkit-font-smoothing: antialiased; }
 	.btn:hover, .navigation__item a:hover {
@@ -1382,11 +1382,11 @@ nav {
 		position: relative;
 		border-color: #f2a89d;
 		color: #000000;
-		opacity: 0; }
+		opacity: 1; }
 		.navigation__item a:hover {
 			color: #000000;
 			border-color: #f2a89d;
-			opacity: 0; }
+			opacity: 1; }
 
 .navigation--social {
 	margin-left: 1.5em; }
