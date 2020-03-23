@@ -1378,11 +1378,12 @@ nav {
 	margin: 0 2px 0 0;
 	line-height: 1em;
 	background-color: #f2a89d;
-	border-color: #6f696b;}
+	border-color: #6f696b;
+	overflow: hidden;
+	vertical-align: middle;}
 	.navigation__item a {
 		display: block;
 		position: relative;
-		overflow: hidden;
 		color: #ffffff;
 		opacity: 0.8; }
 		.navigation__item a:hover {
