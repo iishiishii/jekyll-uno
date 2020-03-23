@@ -1307,18 +1307,21 @@ hr {
 	background: none; }
 
 .btn, .navigation__item a {
+	position: relative;
 	padding: 10px 20px;
 	border: 1px solid #e25440;
 	border-radius: 20px;
+	background-color: #f2a89d;
+	overflow: hidden;
 	font-size: .9em;
 	font-weight: bold;
 	letter-spacing: 1px;
-	text-shadow: 0 0.5px 0.5px;
+	text-shadow: none;
 	color: #e25440;
 	-webkit-font-smoothing: antialiased; }
 	.btn:hover, .navigation__item a:hover {
-		color: #b9301c;
-		border-color: #b9301c; }
+		color: #f1b7bc;
+		border-color: #f1b7bc; }
 
 .btn-secondary {
 	border-color: #5ba4e5;
@@ -1375,16 +1378,15 @@ nav {
 
 .navigation__item {
 	display: inline-block;
-	position: relative;
 	margin: 0 2px 0 0;
 	line-height: 1em;
 	background-color: #f2a89d;
-	border-color: #6f696b;
-	overflow: hidden;}
+	overflow: hidden;
+	border-color: #6f696b;}
 	.navigation__item a {
 		display: block;
 		position: relative;
-		color: #d4d5d8;
+		color: #ffffff;
 		opacity: 0.8; }
 		.navigation__item a:hover {
 			color: #000000;
