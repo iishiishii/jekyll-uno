@@ -1310,8 +1310,6 @@ hr {
 	padding: 10px 20px;
 	border: 1px solid #e25440;
 	border-radius: 20px;
-	background-color: #f2a89d;
-	overflow: hidden;
 	font-size: .9em;
 	font-weight: bold;
 	letter-spacing: 1px;
@@ -1377,14 +1375,16 @@ nav {
 
 .navigation__item {
 	display: inline-block;
+	position: relative;
 	margin: 0 2px 0 0;
-	line-height: 2em;
+	line-height: 1em;
 	background-color: #f2a89d;
-	border-color: #6f696b;}
+	border-color: #6f696b;
+	overflow: hidden;}
 	.navigation__item a {
 		display: block;
 		position: relative;
-		color: #ffffff;
+		color: #d4d5d8;
 		opacity: 0.8; }
 		.navigation__item a:hover {
 			color: #000000;
@@ -1399,7 +1399,7 @@ nav {
 			display: none; }
 		.navigation--social a .icon {
 			display: block;
-			font-size: 1.2em; }
+			font-size: 1.5em; }
 
 .pagination {
 	display: block;
