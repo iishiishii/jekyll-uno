@@ -1364,7 +1364,8 @@ hr {
 
 nav {
 	display: inline-block;
-	position: relative; }
+	position: relative;
+	overflow: hidden; }
 
 .navigation {
 	display: inline-block;
@@ -1375,10 +1376,7 @@ nav {
 
 .navigation__item {
 	display: inline-block;
-	overflow: hidden;
 	line-height: 1;
-	vertical-align: middle;
-	border-radius: 50%;
 	margin: 0 2px 0 0;
 	background-color: #f2a89d;}
 	.navigation__item a {
