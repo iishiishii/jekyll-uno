@@ -1375,12 +1375,12 @@ nav {
 
 .navigation__item {
 	display: inline-block;
-	margin: 0 2px 0 0;
-	line-height: 1em;
-	background-color: #f2a89d;
-	border-color: #6f696b;
 	overflow: hidden;
-	vertical-align: middle;}
+	line-height: 1;
+	vertical-align: middle;
+	border-radius: 50%;
+	margin: 0 2px 0 0;
+	background-color: #f2a89d;}
 	.navigation__item a {
 		display: block;
 		position: relative;
