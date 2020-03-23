@@ -1307,12 +1307,9 @@ hr {
 	background: none; }
 
 .btn, .navigation__item a {
-	position: relative;
 	padding: 10px 20px;
 	border: 1px solid #e25440;
 	border-radius: 20px;
-	background-color: #f2a89d;
-	overflow: hidden;
 	font-size: .9em;
 	font-weight: bold;
 	letter-spacing: 1px;
@@ -1381,11 +1378,11 @@ nav {
 	margin: 0 2px 0 0;
 	line-height: 1em;
 	background-color: #f2a89d;
-	overflow: hidden;
 	border-color: #6f696b;}
 	.navigation__item a {
 		display: block;
 		position: relative;
+		overflow: hidden;
 		color: #ffffff;
 		opacity: 0.8; }
 		.navigation__item a:hover {
