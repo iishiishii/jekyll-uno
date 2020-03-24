@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<h1>Programmer</h1>
+
+<ul>
+  {% for programmer in site.categories.programmer %}
+    <li>
+      <a href="">{{programmer.title}}</a>
+      <p>{{programmer.meta}}</p>
+    <li>
+  {% endfor %}
+</ul>
