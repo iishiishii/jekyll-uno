@@ -18,7 +18,7 @@ defaults:
   -
     scope:
       path: ''
-      type: 'posts_polygot'
+      type: 'posts-polygot'
     values:
         layout: 'post'
 
