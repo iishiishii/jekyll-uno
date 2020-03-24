@@ -15,17 +15,10 @@ layout: default
     <h3> {{ catitem[0] }} </h3>  <!-- for create a heading -->
 
     <ul> <!-- create the list of posts -->
-<<<<<<< HEAD
       <!-- iterate through all the posts on the site -->
       {% for post in site.posts %}
         <!-- list only those which contain the current tag -->
         {% if post.categories contains catitem[0] %}
-=======
-      <!-- iterate through all the posts on the site -->
-      {% for post in site.posts %}
-        <!-- list only those which contain the current tag -->
-        {% if post.categories contains catitem[0] %}
->>>>>>> parent of c49e558... Direct post to different categories
             <li>
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </li>
