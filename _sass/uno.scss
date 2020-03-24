@@ -1098,10 +1098,15 @@ pre {
 
 .content-wrapper {
 	z-index: 800;
+<<<<<<< HEAD
+	width: 70%;
+	max-width: 700px;
+	margin-left: 30%; }
+=======
 	width: 60%;
 	max-width: 800px;
 	margin-left: 40%; }
-
+>>>>>>> parent of 56c6118... panel width
 
 .content-wrapper__inner {
 	margin: 0 10%;
@@ -1174,7 +1179,7 @@ hr {
 	width: 95%; }
 .post hr {
 	display: block;
-	width: 40%;
+	width: 30%;
 	margin: 2em 0;
 	border-top: 1px solid #dddddd; }
 
@@ -1211,14 +1216,27 @@ hr {
 	width: 100%;
 	max-width: none;
 	height: 100%;
+<<<<<<< HEAD
+<<<<<<< HEAD
 	max-height: none;
+	background: url(../images/background-cover.jpg) 0% 0% no-repeat #eeeeee;
+=======
+	max-height: 830px;
+=======
+	max-height: 815px;
+>>>>>>> parent of c49e558... Direct post to different categories
 	background: url(../images/background-cover.jpg) top left no-repeat #eeeeee;
+>>>>>>> parent of 848368d... Update uno.scss
 	background-size: cover; }
 
 .panel-cover--collapsed {
+<<<<<<< HEAD
+	width: 30%;
+	max-width: 700px; }
+=======
 	width: 40%;
 	max-width: 530px; }
-
+>>>>>>> parent of 56c6118... panel width
 
 .panel-cover--overlay {
 	display: block;
@@ -1252,8 +1270,13 @@ hr {
 	height: 100%; }
 
 .no-js .panel-main {
+<<<<<<< HEAD
+	width: 30%;
+	max-width: 700px; }
+=======
 	width: 40%;
 	max-width: 530px; }
+>>>>>>> parent of 56c6118... panel width
 
 .panel-main__inner {
 	display: table-cell;
@@ -1463,7 +1486,7 @@ i {
 	margin-left: .5em; }
 
 .post-list__divider {
-	width: 40%;
+	width: 30%;
 	margin: 2.2em 0 2.1em 0;
 	border-top: 1px solid #dddddd; }
 
