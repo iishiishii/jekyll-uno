@@ -2,7 +2,7 @@
 title: Luna Nalu
 description: 'In my mind, nonsense is sense'
 url: 'http://iishiishii.lunanalu.com/iishiishii'
-baseurl: '/iishiishii'
+baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
@@ -11,8 +11,9 @@ author:
   email:
   twitter_username:
   facebook_username:
-  github_username:
+  github_username: iishiishii
   linkedin_username:
+
 
 defaults:
   -
